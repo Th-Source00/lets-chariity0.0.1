@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #4a4c70;
+    transition: .3s;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #FDBE33;
+    outline: none;
+    text-decoration: none;
+}
+
+
+#body {
+    color: #777777;
+    font-weight: 500;
+    background: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* =======CAROUSEL===============   */
+#carousel1 {
+    background-image: url("../../Assets/img/carousel01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 90vh;
+    position: relative;
+}
+
+#carousel2 {
+    background-image: url("../../Assets/img/carousel02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 90vh;
+    position: relative;
+}
+
+#carousel3 {
+    background-image: url("../../Assets/img/carousel03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 90vh;
+    position: relative;
+}
+
+
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+    margin-bottom: 1in;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about .section-header {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about .about .about-tab {
+    width: 100%;
+}
+
+.about .about-tab .nav.nav-pills .nav-link {
+    padding: 8px;
+    font-weight: 600;
+    background: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    transition: none;
+}
+
+.about .about-tab .nav.nav-pills .nav-link:hover,
+.about .about-tab .nav.nav-pills .nav-link.active {
+    color: #FDBE33;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #FDBE33;
+}
+
+.about .about-tab .tab-content {
+    padding: 15px 0 0 0;
+    background: transparent;
+}
+
+.about .about-tab .tab-content .container {
+    padding: 0;
+}
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.service {
+    position: relative;
+    width: 100%;
+    /* padding: 45px 0 15px 0; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.service .service-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    transition: .3s;
+}
+
+.service .service-icon {
+    position: relative;
+    width: 150px;
+}
+
+.service .service-icon i {
+    position: relative;
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 5px;
+}
+
+.service .service-text {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.service .service-text::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: calc(100% - 10px);
+    top: 5px;
+    left: 0;
+    background: rgba(0, 0, 0, .1);
+}
+
+.service .service-text::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 40px;
+    top: calc(50% - 20px);
+    left: -1px;
+    background: #FDBE33;
+}
+
+.service .service-text h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.service .service-text p {
+    margin: 0;
+}
+
+/* ============================= */
+.about-gallery {
+
+    position: relative;
+    /* width: 100%; */
+    /* padding: 45px 0; */
+    margin-bottom: 1in;
+
+}
+
+.gallery-image {
+    width: 532px;
+    height: 450px;
+    margin-bottom: auto;
+    margin-left: 25.1px;
+    position: relative;
+}
+
+.tab-content-gallery {
+    width: 90%;
+    position: relative;
+    margin-bottom: 50%;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+#gallery-div {
+    position: relative;
+    display: flex;
+
+}
+
+
+/* ============================== */
+
+.blog-tab-content {
+    background-color: orange;
+    color: white;
+    width: 950px;
+    height: 55vh;
+    font-size: 20px;
+    text-overflow: clip;
+    margin-left: auto;
+}
+
+.Shop-tab-content {
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: 55vh;
+    font-size: 20px;
+    text-overflow: clip;
+}
+
+#content-blog,
+#content-shop {
+    font-size: small;
+    color: rgb(238, 236, 236);
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: auto;
+    font-weight: bolder;
+}
+
+#blog-h2,
+#Shop-h2 {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+
+#content-button {
+    margin-left: 42%;
+    margin-right: auto;
+}
+
+.Shop-blog-div {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2px;
+    position: relative;
+    display: flex;
+}
+#blog-shop{
+    display: flex;
+}
+
+
+/* ============================= */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* =======CAROUSEL===============   */
+    #carousel1 {
+        background-image: url("../../Assets/img/carousel01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    }
+
+    #carousel2 {
+        background-image: url("../../Assets/img/carousel02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    }
+
+    #carousel3 {
+        background-image: url("../../Assets/img/carousel03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    }
+
+    .service, .about-gallery{
+        font-size: 15px;
+    }
+    .gallery-image {
+        width: 329px;
+        height: 250px;
+        margin-bottom: auto;
+        margin-left: 25.1px;
+        position: relative;
+    }
+    .blog-tab-content, .Shop-tab-content{
+      
+        color: white;
+        width: 950px;
+        height: 45vh;
+        font-size: 20px;
+        text-overflow: clip;
+    }
+    #content-button {
+        margin-left: 32%;
+        margin-right: auto;
+    }
+}
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+/* ==============@media (max-width: 576px) {========================= */
+/* ==============@media (max-width: 576px) {========================= */
+/* ==============@media (max-width: 576px) {========================= */
+/* ==============@media (max-width: 576px) {========================= */
+/* ==============@media (max-width: 576px) {========================= */
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+@media (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* =======CAROUSEL===============   */
+    #carousel1 {
+        background-image: url("../../Assets/img/carousel01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    }
+
+    #carousel2 {
+        background-image: url("../../Assets/img/carousel02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    }
+
+    #carousel3 {
+        background-image: url("../../Assets/img/carousel03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    }
+
+    .service, .about-gallery{
+        font-size: 15px;
+    }
+    .gallery-image {
+        width: 329px;
+        height: 250px;
+        margin-bottom: auto;
+        margin-left: 25.1px;
+        position: relative;
+    }
+    .blog-tab-content, .Shop-tab-content{
+      
+        color: white;
+        width: 950px;
+        height: 45vh;
+        font-size: 15px;
+        text-overflow: clip;
+    }
+}
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+/* ============452px=========================== */
+/* ============452px=========================== */
+/* ============452px=========================== */
+/* ============452px=========================== */
+/* ============452px=========================== */
+/* ============452px=========================== */
+/* ======================================= */
+/* ======================================= */
+/* ======================================= */
+@media (max-width: 452px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* =======CAROUSEL===============   */
+    #carousel1 {
+        background-image: url("../../Assets/img/carousel01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100% !important;
+        height: 25vh !important;
+        position: relative;
+    }
+
+    #carousel2 {
+        background-image: url("../../Assets/img/carousel02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100% !important;
+        height: 25vh !important;
+        position: relative;
+    }
+
+    #carousel3 {
+        background-image: url("../../Assets/img/carousel03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100% !important;
+        height: 25vh !important;
+        position: relative;
+    }
+    
+/* ==========Service, Gallery and aBut tab========================= */
+    .service, .about-gallery ,.about-tab{
+        font-size: 15px;
+    }
+    .about-gallery{
+        display: flexbox;
+    }
+    
+    #tab-content-gallery{        
+        overflow-y: scroll;
+        font-size: small;
+    }
+    .gallery-image {
+        display: flexbox;
+        width: 350px;
+        height:300px;
+        margin-bottom: auto;
+        /* margin-left: 25.1px; */
+        position: relative;
+    }
+    .tab-content-gallery{
+        position: relative;
+    }
+    .blog-tab-content, .Shop-tab-content{
+      
+        color: white;
+        width: auto;
+        height: 35vh;
+        font-size: 15px;
+        text-overflow: clip;
+    }
+    #gallery-div{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    } 
+    .gallery-h2{margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+
+    /* ==========Shop and blog section======================= */
+    .Shop-blog-div, #blog-shop{
+        display: block;
+    }
+
+    
+}
+
+
+@media (max-width: 992px) {
+    /* =======CAROUSEL===============   */
+    #carousel1, #carousel2, #carousel3{
+       
+        /* width: 100%; */
+        height: 45vh;
+       
+    }
+
+    .about .section-header {
+        margin-top: 30px;
+    }
+}
+
+/* ============================= */
